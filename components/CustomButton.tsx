@@ -2,7 +2,7 @@
 import { CustomButtonProps } from '@/types';
 import React from 'react'
 
-const CustomButton = ({buttonText, containerStyles, buttonMethod}:CustomButtonProps) => {
+const CustomButton = ({buttonText, containerStyles,buttonType,buttonMethod}:CustomButtonProps) => {
   return (
     <button 
     disabled={false}
