@@ -26,9 +26,15 @@
 body {
   height: 100vh;
 }
-/* .hero{
-  
-} */
-/* .hero-image{
-  @apply 
-} */
+/* General styles starts */
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+.padding-y {
+  @apply py-4;
+}
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
+
+/* General styles ends */
