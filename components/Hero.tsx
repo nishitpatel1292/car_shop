@@ -10,11 +10,11 @@ const Hero = () => {
         <div className='hero mx-auto bg-blue-500 py-12'>
             <div className="flex flex-1 flex-col gap-5  sm:px-16 px-6 md:flex-row relative z-0 mx-auto  items-center ">
                 <div className="hero_text pb-0 pr-0  sm:mr-0 xl:pr-0 mb-0 xl:w-[48%] md:pl-[10%] max-sm:w-[90%] max-sm::mx-auto ">
-                    <h1 className=' font-extrabold 2xl:text-[52px] sm:text-[34px] text-[28px]  tracking-widest '>
+                    <h1 className=' font-extrabold xl:text-[3.25rem] sm:text-[34px] text-[28px]  tracking-widest '>
                         Navigate Our Vast Selection, Book Swiftly, and Hit the Road!
                     </h1>
                     <p>
-                        <span className='text-slate-600'>
+                        <span className='text-gray-700'>
                             Streamline your car rental experience with our effortless booking process.
                         </span>
                     </p>
